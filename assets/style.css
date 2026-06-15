@@ -261,6 +261,11 @@ p { margin: 0; }
   .nav__cta { display: none; }
 }
 
+/* Mobile: drop the brand mark, leave only the "Fibe / when" wordmark. */
+@media (max-width: 640px) {
+  .nav .nav__mark { display: none; }
+}
+
 @media (max-width: 440px) {
   .nav__inner {
     gap: 0.45rem;
